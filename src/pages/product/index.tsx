@@ -72,6 +72,7 @@ export default function Product() {
           filteredProducts.map((item: DataProduct, key: number) => {
             return (
               <Card
+                key={key}
                 id={item.id}
                 title={item.title}
                 description={item.description}
